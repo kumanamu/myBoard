@@ -10,7 +10,7 @@ spring:
       mode: NEVER
 
   jpa:
-    defer-datasource-initialization: false
+    defer-datasource-initialization: true
     hibernate:
       ddl-auto: validate
     properties:
